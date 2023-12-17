@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaceBook</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="main">
+        <!-- Left Side -->
+        <div class="Logo">
+            <img src="/assets/Facebook-preview.png" width="250vw">
+            <p id="desc">Facebook Helps You To Connect and Share <br> With The People Of Your Life.</p>
+        </div>
+        <!-- Right Side -->
+        <div class="detailsCard">
+            <input type="" placeholder="Email address or phone number" id="inputE">
+            <input type="password" placeholder="Password" id="inputP">
+            <button id="loginBtn" onclick="loginHandler()" ><h2>Log in</h2></button>
+            <p id="forgot">forgotton password?</p>
+            <button id="createBtn" onclick="createNew()">Create New Account</button>
+        </div>
+    </div>
+
+    <div class="signUp" style="display: none;">
+        <h2>Sign Up</h2>
+        <p>its Quick and easy</p>
+        <input type="text" placeholder="First Name" id="userName" style="border-radius: 5px; width: 16.5vw; height: 7vh;">
+        <input type="text" placeholder="Last Name" style="border-radius: 5px; width: 16.5vw; height: 7vh;">
+        <input type="text" placeholder="Email Address" id="email" style="width: 34vw; margin-top: 8px; border-radius: 5px; height: 7vh;">
+        <input type="password" placeholder="New Password" id="password" style="width: 34vw; margin-top: 8px; border-radius: 5px; height: 7vh;">
+        <input type="password" placeholder="Confirm Password" id="cpassword" style="width: 34vw; margin-top: 8px; border-radius: 5px; height: 7vh;">
+        <!-- <div id="dateSection">
+        <p>Date of Birth <img src="/assets/circle-question-solid.svg"></p>
+        </div> -->
+        <button style="width: 15vw; border-radius: 5px;" id="signUpBtn" onclick="signUpHandler()">Sign Up</button>
+
+    </div>
+    <a href="../homePage/home.html"></a>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="login.js"></script>
+</body>
+</html>
